@@ -1,6 +1,4 @@
 import {
-  mobile,
-  backend,
   creator,
   web,
   javascript,
@@ -11,7 +9,6 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
   docker,
@@ -19,9 +16,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  chat,
+  clon,
+  dash,
   threejs,
 } from "../assets";
 
@@ -31,8 +28,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -44,14 +41,6 @@ const services = [
   {
     title: "Web Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
   },
   {
     title: "Content Creator",
@@ -91,10 +80,6 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -172,56 +157,35 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Some text",
+    name: "Some name",
+    designation: "",
+    company: "Some company",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Some text",
+    name: "Some name",
+    designation: "",
+    company: "Some company",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Some text",
+    name: "Some name",
+    designation: "",
+    company: "Some company",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "YouTube clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "",
     tags: [
       {
         name: "react",
@@ -232,32 +196,53 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "materialui",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: clon,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Dashboard",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "taiwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "restapi",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: dash,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Online Chat",
+    description:
+      "",
+    tags: [
+      {
+        name: "node js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "web-socket",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chat,
     source_code_link: "https://github.com/",
   },
 ];
